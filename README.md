@@ -31,8 +31,8 @@ This Recycling Guide website, created by Raj Vaghela, provides essential informa
 ![Front Door link view](https://github.com/Raj-Vaghela/FRT_Project/assets/128961992/bda39888-0ba7-4c50-9984-10c9077cff05)
 
 ## Note:
-
 This Website is suited for desktop view only.
+
 ---
 This is made by Raj Vaghela.
 
