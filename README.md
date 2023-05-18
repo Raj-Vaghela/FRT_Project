@@ -12,6 +12,14 @@ This Recycling Guide website, created by Raj Vaghela, provides essential informa
 >> *Azure Front Door* is used for managing traffic between routes and load balancing.
 >> Simple use of it is done in this project.
 
+## Links : 
+
+
++ Static Web App -1 link : https://wonderful-beach-0617b3310.3.azurestaticapps.net/ 
++ Static Web App -2 link : https://icy-tree-070738710.3.azurestaticapps.net/
++ Front Door link : https://recyclingguide-rajvaghelawebsite-d0d0gbh2drdadahe.z01.azurefd.net/
++ Github pages link : https://raj-vaghela.github.io/FRT_Project/
+
 ## Screenshots of azure portal and outputs :
 #### Resource Group: 
 ![Resource Group](https://github.com/Raj-Vaghela/FRT_Project/assets/128961992/de47ad05-a376-4070-b639-2f35efd8df4c)
