@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycling Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('images/bg.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .section {
+      width: 80%;
+      margin: auto;
+      padding: 40px;
+      color: #333;
+      background: rgba(249, 249, 249, 0.547);
+      border-radius: 10px;
+      margin-bottom: 40px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .sec {
+      width: 100%;
+      margin: auto;
+      padding: 40px;
+      color: #333;
+      background: rgba(249, 249, 249, 0.8);
+      
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .section:hover {
+      transform: scale(1.02);
+    }
+
+    .section img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .section:nth-child(even) {
+      background: rgba(200, 200, 200, 0.547);
+    }
+
+    .section .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .section .content h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .fixdiv img{
+      border: 2px solid gray;
+      border-radius: 15px;  
+    }
+    footer {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 14px;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+    }
+    .abcd{
+      background-color: rgba(0, 4, 4, 0.762) !important;
+      border-bottom: 2px solid gray;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+    }
+    .copyright {
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 4, 4, 0.762) !important;
+      font-size: 14px;
+      padding: 20px;
+      border-radius:10px;
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    .fixdiv{
+      margin-top: 20px;
+      height: 800px; 
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: transparent transparent;
+      background-color:transparent !important;
+      backdrop-filter: blur(7px) !important;  
+    }
+    .fixdiv::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .fixdiv::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    .fixdiv::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+    .fixdivsecond{
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<div class="abcd" style="display: flex;" >
+  <div class="d-flex" style="flex: 2;justify-content: left;align-items: center;margin-top:5px;margin-left: 50px;margin-bottom: 5px;" >
+  <img src="images/raj-vaghela-website-low-resolution-logo-color-on-transparent-background.png" alt="Logo" height="76.8" width="150">
+  </div>
+  <div class="d-flex" style="flex: 4;justify-content: left; align-items: center;">
+    <img src="images/recycling-guide-high-resolution-logo-color-on-transparent-background.png" alt="Logo" height="65.28" width="480">
+    </div>
+</div> 
+<div class="fixdiv"style="padding-top: 5%;" >
+  <section id="intro" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/recycling proess.jpg" alt="Recycling Introduction">
+        </div>
+        <div class="col-md-6 content">
+          <h2>What is Recycling?</h2>
+          <p>Recycling is the process of converting waste materials into reusable resources. It involves
+            collecting, sorting, processing, and remanufacturing materials such as paper, plastic, metal, and
+enbenefits of recycling.png            environment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="benefits" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 content">
+          <h2>Benefits of Recycling</h2>
+          <p>Recycling offers several important benefits:</p>
+          <ul>
+            <li>Conserves energy and reduces greenhouse gas emissions</li>
+            <li>Conserves natural resources and raw materials</li>
+            <li>Reduces pollution and landfill waste</li>
+            <li>Creates job opportunities in the recycling industry</li>
+            <li>Promotes a sustainable and eco-friendly future</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="images/benefits of recycling.png" alt="Recycling Benefits">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="types" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/types of recycling.jpg" alt="Types of Recycling">
+        </div>
+        <div class="col-md-6 content">
+          <h2>Types of Recycling</h2>
+          <p>There are various types of recycling processes:</p>
+          <ul>
+            <li>Paper recycling</li>
+            <li>Plastic recycling</li>
+            <li>Metal recycling</li>
+            <li>Glass recycling</li>
+            <li>Electronic waste recycling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="symbols" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 content">
+          <h2>Recycling Symbols</h2>
+          <p>Recycling symbols help identify recyclable materials:</p>
+          <ul>
+            <li>Green dot symbol</li>
+            <li>Recyclable symbol</li>
+            <li>Compostable symbol</li>
+            <li>Recycled content symbol</li>
+            <li>Plastic resin codes</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="images/recycling symbols.jpg" alt="Recycling Symbols">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="statistics" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" style="align-items: center;" >
+          <img src="images/recycling facts.png" alt="Recycling Statistics">
+        </div>
+        <div class="col-md-6 content">
+          <h2>Recycling Statistics</h2>
+          <p>Here are some recycling statistics:</p>
+          <ul>
+            <li>The average American generates 4.51 pounds of waste per day.</li>
+            <li>Recycling one ton of paper saves 17 trees and 7,000 gallons of water.</li>
+            <li>Recycling aluminum cans saves 95% of the energy needed to make new cans from raw materials.</li>
+            <li>Only 9% of plastic waste is recycled globally.</li>
+            <li>Recycling reduces greenhouse gas emissions by approximately 700 million metric tons per year.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recycling" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 content">
+          <h2>3Rs of Recycling</h2>
+          <p>The 3Rs of Recycling are:</p>
+          <ul>
+            <li>
+              <h3>Reduce</h3>
+              <p>Reduce your consumption and minimize waste by opting for sustainable alternatives, buying only what you need, and avoiding single-use items.</p>
+            </li>
+            <li>
+              <h3>Reuse</h3>
+              <p>Reuse items whenever possible to extend their lifespan. Use reusable bags, containers, and water bottles, and consider donating or repurposing items instead of throwing them away.</p>
+            </li>
+            <li>
+              <h3>Recycle</h3>
+              <p>Recycle materials that can be processed and turned into new products. Follow local recycling guidelines, separate recyclables properly, and support recycling programs in your community.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="images/threeRs.jpg" alt="3Rs of Recycling">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="challenges" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/recycling challenges.jpg" alt="Recycling Challenges and Solutions">
+        </div>
+        <div class="col-md-6 content">
+          <h2>Recycling Challenges and Solutions</h2>
+          <p>Common challenges in recycling and their solutions:</p>
+          <ul>
+            <li>Contamination: Proper sorting and education</li>
+            <li>Lack of awareness: Public education campaigns</li>
+            <li>Insufficient infrastructure: Investment in recycling facilities</li>
+            <li>Inadequate recycling policies: Advocacy for improved regulations</li>
+          </ul>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="tips" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 content">
+          <h2>Eco-Friendly Tips</h2>
+          <p>Here are some eco-friendly tips:</p>
+          <ul>
+            <li>Reduce single-use plastics</li>
+            <li>Compost organic waste</li>
+            <li>Conserve water and energy</li>
+            <li>Choose sustainable products</li>
+            <li>Support local recycling programs</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="images/eco friendly tips.png" alt="Eco-Friendly Tips">
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div style="margin-top: 20px;">
+  <section id="cta" class="sec">
+    <div class="">
+      <div class="">
+        <center>
+        <div class="col-md-12">
+          <h2>Join Our Mailing List</h2>
+          <p>Stay updated with the latest news and tips on eco-friendly living.</p>
+          <form>
+            
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Full Name</span>
+              <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" class="form-control" required>
+            </div>
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="inputGroup-sizing-default">Email Address</span>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-light">Subscribe</button>
+            
+          </form>
+        </div>
+      </center>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <div>
+    <p class="copyright">Recycling Guide | © Raj Vaghela - Website 2023</p>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
