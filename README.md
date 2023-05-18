@@ -42,5 +42,5 @@ This Recycling Guide website, created by Raj Vaghela, provides essential informa
 This Website is suited for desktop view only.
 
 ---
-This is made by Raj Vaghela.
+Made by Raj Vaghela.
 
