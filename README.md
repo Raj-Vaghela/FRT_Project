@@ -15,7 +15,7 @@ This Recycling Guide website, created by Raj Vaghela, provides essential informa
 ## Links : 
 
 
-+ ~~Static Web App -1 link : https://wonderful-beach-0617b3310.3.azurestaticapps.net/ ~~
++ ~~Static Web App -1 link : https://wonderful-beach-0617b3310.3.azurestaticapps.net/~~
 + ~~Static Web App -2 link : https://icy-tree-070738710.3.azurestaticapps.net/~~
 + ~~Front Door link : https://recyclingguide-rajvaghelawebsite-d0d0gbh2drdadahe.z01.azurefd.net/~~
 + Github pages link : https://raj-vaghela.github.io/FRT_Project/
@@ -39,7 +39,8 @@ This Recycling Guide website, created by Raj Vaghela, provides essential informa
 ![Front Door link view](https://github.com/Raj-Vaghela/FRT_Project/assets/128961992/bda39888-0ba7-4c50-9984-10c9077cff05)
 
 ## Note:
-It is suggested to view the website on desktop for better experience.
++ It is suggested to view the website on desktop for better experience.
++ The Azure services have been stopped so their links have been striked out.All the screenshots for azure work are still in this file.
 
 ---
 Made by Raj Vaghela.
